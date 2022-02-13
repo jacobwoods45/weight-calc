@@ -1,0 +1,8 @@
+{
+    "hosting": {
+      "site": "weight-logger",
+  
+      "public": "public",
+      "site-id": "weight-logger"
+    }
+  }

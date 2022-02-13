@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <div>
+
+
+        <h1><span class="material-icons">monitor_weight</span>  Weight Database</h1>
+        
+        <canvas id="myChart"></canvas>
+        
+      </div>
+      <!--Textbox to enter weight-->
+        <div>
+    <div id = "form-enter">
+        <input id="weight" size="50">
+        <button type="button" id= "submit-button" onclick="logWeight()">Submit</button>
+        <button onclick="wipeData()">Wipe Data</button>
+    </div>
+
+
+<p id = "valid"></p>
+<h1 id="current-bmi"></h1>
+<h1>Weight List</h1>
+<ul id="myList">
+    
+</ul>
+    
+       
+</body>
+
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src= "app.js"></script>
+  
+</html>
